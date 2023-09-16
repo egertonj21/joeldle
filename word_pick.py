@@ -17,7 +17,7 @@ chosen_word = word_picker()
 
 char_array = list(chosen_word[0])
 
-print("Chosen word:", chosen_word)
-print("Character array:", char_array)
+# print("Chosen word:", chosen_word)
+# print("Character array:", char_array)
 
 
