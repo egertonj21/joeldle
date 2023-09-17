@@ -1,5 +1,6 @@
-# TODO allow user to input a 5 letter word, confirm that it is : 5 letters and an acceptable word
-# TODO check inputted word against pre-selected word highlight correct letters / word
+# allows user to input a 5 letter word, confirm that it is : 5 letters and an acceptable word
+# checks inputted word against pre-selected word highlight correct letters / word
+# TODO allow caps/lower case words, make a quit/give-up option
 
 
 import word_pick, csv

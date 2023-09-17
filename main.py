@@ -1,5 +1,7 @@
 # attempt at throwing together a working wordle in python
 
+
+
 while True:
     print('1. Play')
     print('2. Exit')
@@ -14,6 +16,8 @@ while True:
     if option == 1:
         # Add code here for the "Play" option
         print('Starting the game...')
+        import word_checker
+        
     elif option == 2:
         print('Exiting the program. Goodbye!')
         break  # Exit the loop and end the program
