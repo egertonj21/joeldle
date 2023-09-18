@@ -41,7 +41,11 @@ while True:
     match_array =[0,0,0,0,0]
 
 # Check if the input word is in the list
-    if len(user_input) != 5:
+    if user_input == 'QUIT':
+        print('The word was ', char_array)
+        break
+    
+    elif len(user_input) != 5:
         print('Your word is not 5 letters long')
     elif is_word_in_list(user_input, word_list):
         print("this is an acceptable word.")
@@ -62,6 +66,7 @@ while True:
         if match_array == [1,1,1,1,1]:
             print('Well Done, game over')
             break
+    
 
     else:
-        print(f"'{user_input}' is not an acceptable word.")
+        print(user_input," is not an acceptable word.")
